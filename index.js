@@ -1,4 +1,3 @@
-//ik,8*KI><
 const log = console.log;
 
 //EXPRESS
@@ -7,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 4000;
 const bodyParser = require('body-parser');
 const ejs = require('ejs');
-const Message = require('./models/Form');
+const Message = require('./models/form');
 
 
 const dbConnect = require('./database/config');
