@@ -1,0 +1,22 @@
+<%- include('partials/header'); -%>
+
+<main class="main-section">
+	<div id="ask-me-form">
+		<form action="/form" method="POST">
+  			<h2>Talk to me</h2>
+  			<label for="name">Name</label>
+  			<input type="text" name="name" placeholder="Fullname" required />
+
+  			<label for="email">Email</label>
+  			<input type="email" name="email" placeholder="Email Address" required />
+
+  			<label for="phone">Phone Number</label>
+  			<input type="tel" name="phone" placeholder="Phone Number" required />
+
+  			<label for="message">Message</label>
+  			<input type="text" name="textField" class="textField" required />
+
+  			<button type="submit">Submit</button>
+		</form>
+	</div>	
+</main>
